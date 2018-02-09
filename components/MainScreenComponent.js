@@ -22,7 +22,7 @@ export default class HomeScreenComponent extends Component {
                 <Text style={{fontWeight: 'bold', fontSize: 25}}>
                     Welcome to Simple City Tours!
                 </Text>
-                <Text style={{fontSize: 15, marginBottom: 20, padding: 5}}>
+                <Text style={{fontSize: 15, marginBottom: 10, padding: 5}}>
                     Our goal is to make a city that is simple enough to enjoy because you will be able to explore each city just a little bit more. 
                 </Text>
 
@@ -62,8 +62,9 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: 'yellow',
-        padding: 20,
-        marginBottom: 20,
-        marginHorizontal: 20
+        padding: 25,
+        marginBottom: 15,
+        marginHorizontal: 10,
+        borderRadius:20,
   },
 });
